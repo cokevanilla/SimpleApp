@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1C9C9"
+    android:gravity="right"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/signIn"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Goated App"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:hint="Email Address"
+        android:inputType="text|textEmailAddress"
+        android:selectAllOnFocus="false"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="text|textPassword"
+        android:password="true"
+        android:phoneNumber="false" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:gravity="right"
+        android:linksClickable="true"
+        android:text="Forgot password?" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:backgroundTint="#3450B3"
+        android:gravity="center"
+        android:text="Sign in"
+        android:visibility="visible" />
+
+</LinearLayout>
+
